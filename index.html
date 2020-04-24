@@ -3,7 +3,17 @@
 <head>
   <style type="text/css">
 
+  body {
+    background-image:url(https://source.unsplash.com/random/1280x800);
+    background-size: cover;
+  }
+
 .sprite {
+  position: absolute;
+  top:50%;
+  left:50%;
+  margin-left: -125px;
+  margin-top: -125px;
   display: block;
   animation-name: cycle;
   animation-duration: 1s;
@@ -12,72 +22,73 @@
   animation-direction: alternate;
   width: 250px;
   height: 250px;
-  background: url('css_sprites.png') -280px -10px;
+  background-image: url('css_sprites-w.png');
+  background-position: -280px -10px;
 }
 
 @keyframes cycle {
   6.25% {
-    background: url('css_sprites.png') -10px -10px;
+    background-position: -10px -10px;
 }
 
 12.5% {
-    background: url('css_sprites.png') -550px -820px;
+    background-position: -550px -820px;
 }
 
 18.75% {
-    background: url('css_sprites.png') -280px -820px;
+    background-position: -280px -820px;
 }
 
 25% {
-    background: url('css_sprites.png') -10px -820px;
+    background-position: -10px -820px;
 }
 
 31.25% {
-    background: url('css_sprites.png') -820px -550px;
+    background-position: -820px -550px;
 }
 
 37.5% {
-    background: url('css_sprites.png') -820px -280px;
+    background-position: -820px -280px;
 }
 
 43.75% {
-    background: url('css_sprites.png') -820px -10px;
+    background-position: -820px -10px;
 }
 
 50% {
-    background: url('css_sprites.png') -550px -550px;
+    background-position: -550px -550px;
 }
 
 56.25% {
-    background: url('css_sprites.png') -10px -550px;
+    background-position: -10px -550px;
 }
 
 62.5% {
-    background: url('css_sprites.png') -280px -550px;
+    background-position: -280px -550px;
 }
 
 68.75% {
-    background: url('css_sprites.png') -550px -10px;
+    background-position: -550px -10px;
 }
 
 75% {
-     background: url('css_sprites.png') -550px -280px;
+     background-position: -550px -280px;
 }
 
 81.25% {
-    background: url('css_sprites.png') -280px -280px;
+    background-position: -280px -280px;
 }
 
 87.5% {
-    background: url('css_sprites.png') -10px -280px;
+    background-position: -10px -280px;
 }
 
 93.75% {
-    background: url('css_sprites.png') -280px -10px;
+    background-position: -280px -10px;
 }
 
 100% {
-    background: url('css_sprites.png') -280px -10px;
+    background-position: -280px -10px;
 }
 
 }
